@@ -604,10 +604,6 @@ def cast_ray(angle, ray_id):
 def handle_input():
     global player_x, player_y, player_angle, orbs, brightness_factor, brightness_decreasing, batteryCharges, collectedR, move_speed, rot_speed, recently_hurt
     buttons.scan()
-    if buttons.state(Buttons.B) and buttons.state(Buttons.C):
-        TerminateExecution()
-    if buttons.state(Buttons.C):
-        Reset()
     if buttons.state(Buttons.Up):
         new_x = player_x + math.cos(player_angle) * move_speed
         new_y = player_y + math.sin(player_angle) * move_speed
@@ -1402,8 +1398,6 @@ needs_redraw = True
 running = False
 while running == False:
     buttons.scan()
-    if buttons.state(Buttons.C):
-        break
     old_selected = selectedButton
     old_menu = current_menu
     menus[current_menu]()
