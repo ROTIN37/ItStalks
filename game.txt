@@ -1285,7 +1285,9 @@ def credits_menu():
     displayC.draw_text(font_bytes, 10, 20, "CODE", WHITE, None)
     displayC.draw_text(font_bytes, 10, 50, "You can find the code", WHITE, None)
     displayC.draw_text(font_bytes, 10, 60, "for the game at", WHITE, None)
-    displayC.draw_text(font_bytes, 0, 70, "github.com/ROTIN37/NewBit", WHITE, None)
+    displayC.draw_text(font_bytes, 10, 70, "github.com", WHITE, None)
+    displayC.draw_text(font_bytes, 10, 80, "/ROTIN37", WHITE, None)
+    displayC.draw_text(font_bytes, 10, 90, "/NewBit", WHITE, None)
     if buttons.state(Buttons.B):
         time.sleep(0.2)
         current_menu = 0
