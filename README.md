@@ -1,6 +1,6 @@
 # It Stalks  
 <p align="center">  
-  <img src="logo.png" alt="Logo" width="20%" style="image-rendering: pixelated;">  
+  <img src="assets/output.svg" alt="Logo" width="20%">  
 </p>  
 
 **A semi 3D maze crawler for the CircuitMess Bit.**  
