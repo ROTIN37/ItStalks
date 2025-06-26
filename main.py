@@ -1334,7 +1334,7 @@ def ResetGame():
     player_health = 3
     max_player_health = 3
     batteryCharges = 5
-    enemy_speed = 0.05
+    enemy_speed = 0.025
     Reset()
     displayC.refresh()
 def Game_Over():
